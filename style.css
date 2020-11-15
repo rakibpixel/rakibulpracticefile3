@@ -1,0 +1,36 @@
+*{margin: 0;padding: 0; outline: 0;}
+
+body{
+    background: #ebecf0;
+}
+
+.bt{
+    width: 150px;
+    height: 150px;
+    background: #ebecf0 ;
+    font-size: 50px;
+    border: none;
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px rgb(182, 181, 181);
+    margin: 0 auto;
+    color: #b2b2b4;
+    border-radius: 50%;
+    transition: .3s ease-in-out;
+}
+
+.bt a{
+    text-decoration: none;
+}
+
+
+div{
+    display: flex;
+    padding: 50px 55px 50px 50px ;
+    margin-top: 200px;
+}
+
+
+.bt:hover{
+    border-radius: 10px;
+    font-size: 40px;
+    box-shadow: inset -5px -5px 20px #fff, inset 5px 5px 20px rgb(182, 181, 181);
+}
